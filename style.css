@@ -13,7 +13,15 @@ header nav select{padding:5px;border-radius:5px;border:1px solid #ccc;}
 .services h2{font-size:32px;color:#1e3a8a;margin-bottom:40px;}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
 .card{background:white;border-radius:20px;padding:20px;transition:0.5s;box-shadow:0 5px 15px rgba(0,0,0,0.1);position:relative;}
-.card img{width:80px;margin-bottom:20px;}
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+  max-width: 100%;
+  border-radius: 15px;
+  display: block;
+}
 .card h3{margin-bottom:10px;color:#1e40af;}
 .card p{font-size:14px;color:#334155;margin-bottom:5px;}
 .card .price{font-weight:700;color:#2563eb;}
